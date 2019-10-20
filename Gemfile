@@ -1,1 +1,5 @@
 gem 'mail', '~> 2.6', '>= 2.6.3'
+source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
