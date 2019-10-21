@@ -24,11 +24,14 @@ GEM
       diff-lcs (>= 1.2.0, < 2.0)
       rspec-support (~> 3.8.0)
     rspec-support (3.8.0)
+    rubytest (0.8.1)
     sinatra (2.0.7)
       mustermann (~> 1.0)
       rack (~> 2.0)
       rack-protection (= 2.0.7)
       tilt (~> 2.0)
+    test (1.0.0)
+      rubytest
     tilt (2.0.10)
 
 PLATFORMS
@@ -38,6 +41,7 @@ DEPENDENCIES
   pry
   rspec
   sinatra
+  test
 
 BUNDLED WITH
    2.0.1
